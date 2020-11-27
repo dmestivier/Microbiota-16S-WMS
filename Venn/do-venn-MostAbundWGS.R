@@ -143,7 +143,7 @@ L  = which( cs < 98.0 )
 
 counts.means.filt = counts.means[ L, ]
 
-write.table( counts.means.filt, "filt.csv", row.names=F )
+#write.table( counts.means.filt, "filt.csv", row.names=F )
 
 #length( is.na( counts.means.filt$M ) )
 #table( counts.means.filt$concor16S )
